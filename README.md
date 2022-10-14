@@ -1,3 +1,6 @@
+#homework practice project [my deploy](https://Nurtimax.github.io/practice-project-task-1)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
