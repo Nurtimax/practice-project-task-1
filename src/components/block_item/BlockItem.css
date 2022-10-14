@@ -1,0 +1,16 @@
+.block {
+  width: 200px;
+  height: 200px;
+}
+.block.yellow_block {
+  background-color: yellow;
+}
+.block.green_block {
+  background-color: green;
+}
+.block.lime_block {
+  background-color: lime;
+}
+.block.red_block {
+  background-color: red;
+}

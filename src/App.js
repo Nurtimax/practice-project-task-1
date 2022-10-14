@@ -1,40 +1,29 @@
 import "./App.css";
-import Comment from "./components/Comment";
+import Block from "./components/block/Block";
 
-const comment = [
+const blocks = [
   {
-    id: 1,
-    date: new Date(),
-    text: "I hope you enjoy learning React!",
-    author: {
-      name: "Hello Kitty",
-      avatarUrl: "http://placekitten.com/g/62/62",
-    },
+    id: "b1",
+    block: "yellow",
   },
   {
-    id: 2,
-    date: new Date(),
-    text: "I hope you enjoy learning React!",
-    author: {
-      name: "Hello Kitty",
-      avatarUrl: "http://placekitten.com/g/64/64",
-    },
+    id: "b2",
+    block: "green",
   },
   {
-    id: 3,
-    date: new Date(),
-    text: "I hope you enjoy learning React!",
-    author: {
-      name: "Hello Kitty",
-      avatarUrl: "http://placekitten.com/g/64/64",
-    },
+    id: "b3",
+    block: "color",
+  },
+  {
+    id: "b4",
+    block: `${Math.random()}`,
   },
 ];
 
 function App() {
   return (
     <div className="App">
-      <Comment data={comment} />
+      <Block blocks={blocks} />
     </div>
   );
 }
